@@ -1,0 +1,572 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+
+body 
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+div
+{
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header 
+{
+	z-index: 200;
+	background: linear-gradient(to right, #ffffff, #216ae0);
+	position: fixed;
+	top:0;
+	left:0;
+	border-bottom: solid 1px transparent;
+	width:100%;
+	height: 100px;
+	margin-bottom: 2px;
+}
+
+.container
+{
+	width:96%;
+	height:100px;
+	position: relative;
+	left:2%;
+	margin:0;
+	display: inline-flex;
+}
+
+.nav
+{
+	margin-left: 157px;
+	margin:0;
+	margin-top:37px;
+	margin-left: 100px;
+
+}
+.nav ul li
+{
+	display: inline-block;
+
+
+}
+.nav ul li:not(:last-child)
+{
+	margin-right: 60px;
+}
+.nav ul li a
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.nav ul li.active a,
+.nav ul li a:hover
+{
+	color: #ffffff;
+}
+
+.signin
+{
+	margin: 0;
+	height: 43px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    left:14%;
+    top:25px;
+}
+
+.signin a
+{
+	padding: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 43px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.signin a:hover
+{
+color:#2882e2 ;
+}
+
+.login
+{
+	margin: 0;
+	height: 43px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    left:15%;
+    top:25px;
+}
+
+.login a
+{
+	padding: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 43px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.login a:hover
+{
+color:#2882e2 ;
+}
+
+
+.imgmain
+{
+	margin: 0;
+	margin-top: 103px;
+}
+.imgmain img
+{
+
+	width:96%;
+	height:700px;
+}
+
+.container1
+{
+ width: 100%;
+ margin:0;
+}
+
+.centerright
+{
+	position: absolute;
+	top:40%;
+	right:10%;
+}
+
+#imgtext
+{
+	font-size: 20px;
+}
+#imgtext2
+{
+	font-size: 40px;
+}
+#imgtext3
+{
+	margin-top: 40px;
+	font-size: 50px;
+}
+
+.recent
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 105px;
+	padding-bottom: 101px;
+}
+
+.prev, .next 
+	{
+ 	cursor: pointer;
+  	position: absolute;
+  	top: 50%;
+  	width: auto;
+  	padding:9px 16px ;
+  	margin-top: -22px;
+  	margin-left:4px;
+  	color: white;
+  	border:1px solid #fff;
+  	font-weight: bold;
+  	font-size: 18px;
+  	transition: 0.6s ease;
+  	border-radius: 40%;
+  	background-color:rgba(0, 0, 0,0.3);
+	}
+
+
+	.next 
+	{
+ 	right: 0;
+  	border-radius: 40%;
+  	margin-right:4px;
+	}
+
+	.slideformat
+	{
+
+    max-width: 98%;
+    height: 600px;
+  	position: relative;
+  	margin:auto;
+  	margin-top: 100px;
+	}
+
+	.mySlides 
+	{
+	display: none
+	}
+	
+	#img 
+	{
+	vertical-align: middle;
+    height: 600px;
+	}
+
+	.text {
+ 	color: #f2f2f2;
+  	font-size: 15px;
+  	padding-left:1%;
+  	padding: 1%;
+  	position: absolute;
+  	margin-left:51%;
+  	bottom: 0px;
+  	width: 49%;
+  	background-color:rgba(0, 0, 0,0.6);
+	}
+
+	.textcaption
+	{
+  	font-size: 200%;
+	}
+
+
+	.dot 
+	{
+  	cursor: pointer;
+  	height: 10px;
+  	width: 10px;
+  	margin: 0px 3px 0px 0px;
+  	background-color: rgba(0, 0, 0,0.7);
+  	border:1px solid #fff;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
+	}
+
+	.dots
+	{
+	position:absolute;
+	margin-top:-22px;
+	margin-left:1.7%;
+
+	}	
+
+	.dot.active, .dot:hover 
+	{
+  	background-color: #1078E3;
+	}
+
+
+	.fade 
+	{
+  	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 3s;
+  	animation-name: fade;
+ 	animation-duration: 3s;
+	}
+
+	@-webkit-keyframes fade 
+	{
+  	from {opacity: .4} 
+  	to {opacity: 1}
+	}
+
+	@keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+	}
+
+
+	.prev:hover, .next:hover 
+	{
+  	background-color:black;
+	}
+
+
+.prev2, .next2
+	{
+	float: right;
+ 	cursor: pointer;
+  	position: absolute;
+  	width: auto;
+  	padding:6.75px 12px ;
+  	margin-top: 18px;
+  	margin-left: 50px;
+  	margin-right: 0;
+  	color: white;
+  	border-radius: 40%;
+  	font-weight: bold;
+  	font-size: 10px;
+  	transition: 0.5s ease;
+  	background-color:#216ae0;
+	}
+
+
+	.next2
+	{
+ 	margin-left: 85px;
+
+	}
+
+	.prev2:hover, .next2:hover 
+	{
+  	background-color:black;
+	}
+
+	.section_title
+    {
+	font-size: 30px;
+	font-weight: 600;
+	color: #282828;
+	line-height: 0.75;
+    }
+   .section_subtitle
+   {
+	font-size: 14px;
+	font-weight: 500;
+	color: #828282;
+	line-height: 0.75;
+	margin-top: 15px;
+    }
+
+    .container3
+{
+	width:70%;
+	height:100px;
+	position: relative;
+	left:15%;
+	margin:0;
+	display: inline-flex;
+}
+
+.recent
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 105px;
+	padding-bottom: 101px;
+}
+.recent_row
+{
+	margin-top: 60px;
+}
+.recent_slider_container
+{
+	width: calc(100% + 30px);
+	left: -15px;
+}
+.recent_item
+{
+	width: 100%;
+	padding-bottom: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.recent_item_inner
+{
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.recent_item:hover .recent_item_inner
+{
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.35);
+}
+.recent_item_image
+{
+	width: 100%;
+}
+.recent_item_image img
+{
+	max-width: 100%;
+}
+.property_tag
+{
+	position: absolute;
+	top: 20px;
+	left: 22px;
+	height: 33px;
+	text-align: center;
+}
+.property_tag a
+{
+	display: block;
+	padding-left: 15px;
+	padding-right: 13px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 33px;
+}
+.tag_featured
+{
+	background: #ff2d6d;
+}
+.tag_offer
+{
+	background: #f3b715;
+}
+.tag_new
+{
+	width: 87px;
+	background: #34e69d;
+}
+.recent_item_body
+{
+	padding-top: 33px;
+	padding-bottom: 35px;
+	background: #eff2f6;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.recent_item:hover .recent_item_body
+{
+	background: #FFFFFF;
+}
+.recent_item_location
+{
+	font-size: 12px;
+	font-weight: 400;
+	color: #8c8c8c;
+	line-height: 0.75;
+}
+.recent_item_title
+{
+	margin-top: 11px;
+}
+.recent_item_title a
+{
+	font-size: 22px;
+	font-weight: 500;
+	color: #252525;
+	line-height: 1.2;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.recent_item_title a:hover
+{
+	color: #3f6fce;
+}
+.recent_item_price
+{
+	font-size: 16px;
+	font-weight: 600;
+	color: #3f6fce;
+	line-height: 0.75;
+	margin-top: 21px;
+}
+.recent_item_footer
+{
+	width: 100%;
+	height: 52px;
+	background: #282828;
+	color: #FFFFFF;
+	padding-left: 15px;
+	padding-right: 5px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.recent_item_footer > div:not(:last-child)
+{
+	margin-right: 20px;
+}
+.recent_icon
+{
+	display: inline-block;
+	width: 23px;
+	height: 14px;
+	margin-right: 8px;
+}
+.recent_icon img
+{
+	max-width: 100%;
+}
+.recent_item_footer span
+{
+	font-size: 12px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.recent_item:hover .recent_item_footer
+{
+	background: #3f6fce;
+}
+.recent_button
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.recent_slider_nav_container
+{
+	position: absolute;
+	top: -97px;
+	right: 15px;
+}
+.recent_slider_nav
+{
+	width: 32px;
+	height: 32px;
+	background: #eff2f6;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.recent_slider_nav:first-child
+{
+	margin-right: 5px;
+}
+.recent_slider_nav i
+{
+	color: #a4a4a4;
+	line-height: 32px;
+	font-size: 9px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.recent_slider_nav:hover
+{
+	background: #3f6fce;
+}
+.recent_slider_nav:hover i
+{
+	color: #FFFFFF;
+}
+
+.gender{
+	display: inline-flex;
+	width: 20px;
+}
+
+.terms{
+	display: inline-flex;
+}

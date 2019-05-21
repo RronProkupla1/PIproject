@@ -1,0 +1,112 @@
+.prev2, .next2
+	{
+	float: right;
+ 	cursor: pointer;
+  	position: absolute;
+  	width: auto;
+  	padding:6.75px 12px ;
+  	margin-top: 18px;
+  	margin-left: 50px;
+  	margin-right: 0;
+  	color: white;
+  	border-radius: 40%;
+  	font-weight: bold;
+  	font-size: 10px;
+  	transition: 0.5s ease;
+  	background-color:#216ae0;
+	}
+
+
+	.next2
+	{
+ 	margin-left: 85px;
+
+	}
+
+	.prev2:hover, .next2:hover 
+	{
+  	background-color:black;
+	}
+.section_title
+    {
+  font-size: 30px;
+  font-weight: 600;
+  color: #282828;
+  line-height: 0.75;
+    }
+   .section_subtitle
+   {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  line-height: 0.75;
+  margin-top: 15px;
+    }
+    .container3
+{
+  width:70%;
+  height:100px;
+  position: relative;
+  left:15%;
+  margin:0;
+  display: inline-flex;
+}
+
+.recent
+{
+  width: 100%;
+  background: #FFFFFF;
+  padding-top: 105px;
+  padding-bottom: 10px;
+}
+
+.mslides{
+  margin:1%;
+  position: relative;
+  display: inline-flex;
+  height: 480px;
+  width: 31%;
+  background-color: rgba(224, 20, 20,0.3);
+  z-index: 100;
+}
+
+.container4{
+  width:80%;
+  height:500px;
+  position: relative;
+  left: 10%;
+  margin:0;
+  background-color: rgba(66, 134, 244,0.2);
+}
+.fade 
+  {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+
+  @-webkit-keyframes fade 
+  {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  .part1{
+    display: none;
+  }
+
+  .mslides2{
+  margin:1%;
+  position: relative;
+  display: inline-flex;
+  height: 480px;
+  width: 31%;
+  background-color: rgba(28, 201, 45,0.4);
+  z-index: 100;
+}
