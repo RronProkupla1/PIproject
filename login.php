@@ -23,7 +23,7 @@
 			<tr></tr>
 			<tr><td style="position: relative;vertical-align: center;"><p style="color: white;font-size: 12px;te"><br><br><br>If you don't have an account create one for free!</p></td></tr>
 			<tr><td style="padding-left: 70px;padding-right: 27px;"><input type="button" name="newacc" value="Register" 
-			onclick="window.location.href='SignUp.html'"></a></td></tr>
+			onclick="window.location.href='SignUp.php'"></a></td></tr>
 			</div>
 		</form>
 	</table>
