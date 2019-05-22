@@ -17,7 +17,7 @@
 			</div>
 				<nav class="nav">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="index.php">Home</a></li>
 							<li><a href="about.html">About us</a></li>
 							<li><a href="properties.html">Properties</a></li>
 							<li><a href="news.html">News</a></li>
@@ -25,10 +25,10 @@
 						</ul>
 				</nav>
 			<div class="signin">
-				<a href="SignUp.html">Sign up</a>
+				<a href="SignUp.php">Sign up</a>
 			</div>
 			<div class="login">
-				<a href="login.html">Log in</a>
+				<a href="login.php">Log in</a>
 			</div>
 		</div>	
 	</header>
