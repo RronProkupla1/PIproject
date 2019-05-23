@@ -1,6 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
+
+<?php
+    
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+	$name = $email = $lastname = $pass = $pass1 = '';
+
+if (empty($_POST['name'])) {
+		$nameError = 'Name should be filled*';
+	}elseif(preg_match("/^[a-zA-Z ]*$/",$name)) {
+      $nameError = "Only letters allowed"; 
+    } 
+	else {
+		$name = trim(htmlspecialchars($_POST['name']));
+   
+	}
+
+
+if (empty($_POST['email'])) {
+		$emailError = 'Please add your email*';
+	}
+	 else {
+		$email = trim(htmlspecialchars($_POST['email']));
+		 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Invalid email format"; 
+    }
+	}
+
+
+ if (empty($_POST['lastname'])) {
+		$lastnameError = 'Lastname shoud be filled*';
+	} 
+	else {
+		$lastname = trim(htmlspecialchars($_POST['name']));
+	}
+    
+ 
+ if(empty($_POST['date'])){
+    	$DateError = 'Date is required*';
+    }
+    else {
+    	$Date = trim(htmlspecialchars($_POST['date']));
+    }
+
+ 
+ if(empty($_POST['pass'])){
+    	$passError = 'Password is required*';
+    }
+    else {
+    	$pass = trim(htmlspecialchars($_POST['pass']));
+    }
+
+
+if(empty($_POST['pass1'])){
+    	$pass1Error = 'Password is required*';
+    }
+    else {
+    	$pass1 = trim(htmlspecialchars($_POST['pass1']));
+    }
+
+    
+    if($pass != $pass1){
+	 	$passwError = 'Passwords should match!*';
+
+    }
+
+}
+
+?>
 
 	<title>Sign Up</title>
 	<meta charset="utf-8">
@@ -9,6 +78,8 @@
 
 </head>
 <body background="images/sg10.jpg">
+
+
 	<div id="logo"><img src="images/logo9.png"><h1 id="text1">Sign Up</h1></div>
 	<div class="form1">
 		<table id="table1" style="max-width: 350px">
