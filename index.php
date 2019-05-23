@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width , initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	 <link rel="stylesheet" type="text/css" href="styles/carousel2.css">
+	
 	
 </head>
 <body>
@@ -99,22 +101,66 @@ It’s all new, all screen, and all powerful.
 
 <!-- RECENT AND BUTTONS -->
 
-	<div class="recent">
-		<div class="container3">
-			<div>
-				<div class="section_title">Recent releases</div>
-				<div class="section_subtitle">Search your dream phone</div>
-			</div>
-			<div style="height: 100;width: 67%"></div>
-			<div>
-				<a class="prev2">&#10094;</a>
-				<a class="next2">&#10095;</a>
-			</div>
-		</div>
-	</div>
-
+	   <div class="recent">
+    <div class="container3">
+      <div>
+        <div class="section_title">Recent releases</div>
+        <div class="section_subtitle">Search your dream phone</div>
+      </div>
+      <div style="height: 100;width: 67%"></div>
+      <div>
+        <a class="prev2" onclick="plusPart(-1)">&#10094;</a>
+        <a class="next2" onclick="plusPart(1)">&#10095;</a>
+      </div>
+    </div>
+  </div>
 	<!--RECENT SHOW-->
 
+	<div class="container4">
+        <div class="part1 fade">
+        <div class="mslides">
+          <div style="height: 100%;width:100%;">
+          	<img src="images/img1.jpg" style="height: 350px;width: 100%;">
+          	      <div class="overlay">
+    				<div class="text2">Hello World</div>
+  				</div>	
+          </div>
+     
+        </div>
+        <div class="mslides">
+        	 <div style="height: 100%;width:100%;"><img src="images/img2.jpg" style="height: 350px;width: 100%;"></div>
+        	 <div class="overlay">
+    				<div class="text2">Hello World</div>
+  				</div>	
+        </div>
+        <div class="mslides">
+        	 <div style="height: 100%;width:100%;"><img src="images/img4.jpg" style="height: 350px;width: 100%;"></div>
+        	 <div class="overlay">
+    				<div class="text2">Hello World</div>
+  				</div>	
+        </div>
+      </div>
+      <div class="part1 fade">
+        <div class="mslides2">
+        	 <div style="height: 100%;width:100%;"><img src="images/img5.jpg" style="height: 350px;width: 100%;"></div>
+        	 <div class="overlay">
+    				<div class="text2">Hello World</div>
+  				</div>	
+        </div>
+        <div class="mslides2">
+        	 <div style="height: 100%;width:100%;"><img src="images/img6.jpg" style="height: 350px;width: 100%;"></div>
+        	 <div class="overlay">
+    				<div class="text2">Hello World</div>
+  				</div>	
+        </div>
+        <div class="mslides2">
+        	 <div style="height: 100%;width:100%;"><img src="images/img7.jpg" style="height: 350px;width: 100%;"></div>
+        	 <div class="overlay">
+    				<div class="text2">Hello World</div>
+  				</div>	
+        </div>
+      </div>
+    </div>
 	
 
 
@@ -123,5 +169,6 @@ It’s all new, all screen, and all powerful.
 	
 </body>
 <script type="text/javascript" src="js/mainSlider.js"></script>
+<script type="text/javascript" src="js/carousel2.js"></script>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </html>

@@ -18,6 +18,8 @@ div
     box-sizing: border-box;
 }
 
+
+
 .header 
 {
 	z-index: 200;
@@ -168,13 +170,6 @@ color:#2882e2 ;
 	font-size: 50px;
 }
 
-.recent
-{
-	width: 100%;
-	background: #FFFFFF;
-	padding-top: 105px;
-	padding-bottom: 101px;
-}
 
 .prev, .next 
 	{
@@ -294,69 +289,7 @@ color:#2882e2 ;
 	}
 
 
-.prev2, .next2
-	{
-	float: right;
- 	cursor: pointer;
-  	position: absolute;
-  	width: auto;
-  	padding:6.75px 12px ;
-  	margin-top: 18px;
-  	margin-left: 50px;
-  	margin-right: 0;
-  	color: white;
-  	border-radius: 40%;
-  	font-weight: bold;
-  	font-size: 10px;
-  	transition: 0.5s ease;
-  	background-color:#216ae0;
-	}
 
-
-	.next2
-	{
- 	margin-left: 85px;
-
-	}
-
-	.prev2:hover, .next2:hover 
-	{
-  	background-color:black;
-	}
-
-	.section_title
-    {
-	font-size: 30px;
-	font-weight: 600;
-	color: #282828;
-	line-height: 0.75;
-    }
-   .section_subtitle
-   {
-	font-size: 14px;
-	font-weight: 500;
-	color: #828282;
-	line-height: 0.75;
-	margin-top: 15px;
-    }
-
-    .container3
-{
-	width:70%;
-	height:100px;
-	position: relative;
-	left:15%;
-	margin:0;
-	display: inline-flex;
-}
-
-.recent
-{
-	width: 100%;
-	background: #FFFFFF;
-	padding-top: 105px;
-	padding-bottom: 101px;
-}
 .recent_row
 {
 	margin-top: 60px;
@@ -570,3 +503,4 @@ color:#2882e2 ;
 .terms{
 	display: inline-flex;
 }
+
