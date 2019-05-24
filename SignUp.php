@@ -2,74 +2,7 @@
 <html>
 <head>
 	
-
-<?php
-    
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-	$name = $email = $lastname = $pass = $pass1 = '';
-
-if (empty($_POST['name'])) {
-		$nameError = 'Name should be filled*';
-	}elseif(preg_match("/^[a-zA-Z ]*$/",$name)) {
-      $nameError = "Only letters allowed"; 
-    } 
-	else {
-		$name = trim(htmlspecialchars($_POST['name']));
-   
-	}
-
-
-if (empty($_POST['email'])) {
-		$emailError = 'Please add your email*';
-	}
-	 else {
-		$email = trim(htmlspecialchars($_POST['email']));
-		 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $emailErr = "Invalid email format"; 
-    }
-	}
-
-
- if (empty($_POST['lastname'])) {
-		$lastnameError = 'Lastname shoud be filled*';
-	} 
-	else {
-		$lastname = trim(htmlspecialchars($_POST['name']));
-	}
-    
- 
- if(empty($_POST['date'])){
-    	$DateError = 'Date is required*';
-    }
-    else {
-    	$Date = trim(htmlspecialchars($_POST['date']));
-    }
-
- 
- if(empty($_POST['pass'])){
-    	$passError = 'Password is required*';
-    }
-    else {
-    	$pass = trim(htmlspecialchars($_POST['pass']));
-    }
-
-
-if(empty($_POST['pass1'])){
-    	$pass1Error = 'Password is required*';
-    }
-    else {
-    	$pass1 = trim(htmlspecialchars($_POST['pass1']));
-    }
-
-    
-    if($pass != $pass1){
-	 	$passwError = 'Passwords should match!*';
-
-    }
-
-}
-
-?>
+<?php include('php/signupVDB.php') ?>
 
 	<title>Sign Up</title>
 	<meta charset="utf-8">
@@ -94,8 +27,8 @@ if(empty($_POST['pass1'])){
 					
 				</tr>
 				<tr>
-					<td><div style="display: flex;"><input type="radio" name="gender" ><span style="margin-top: 8px">Male</span>
-			       <input type="radio" name="gender" ><span style="margin-top: 8px;">Female</span><br></td></div>
+					<td><div style="display: flex;"><input type="radio" name="gender" value="Mashkull" checked><span style="margin-top: 8px">Male</span>
+			       <input type="radio" name="gender" value="Femer"><span style="margin-top: 8px;">Female</span><br></td></div>
 
 				</tr>
 				<tr><td><input type="date" name="date">
