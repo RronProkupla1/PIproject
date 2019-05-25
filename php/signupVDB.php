@@ -1,7 +1,8 @@
 <?php
 
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') 
+{
 
       $link = mysqli_connect("localhost","root","root","piproject");
 
@@ -72,12 +73,12 @@ if(empty($_POST['pass1'])){
     }   
     else{
 
-      $query = "SELECT ID FROM 'signuptable' WHERE Email = '".mysqli_real_escape_string($link,$_POST['email'])."' LIMIT 1";
+      $query = "SELECT ID FROM signuptable WHERE Email = '".mysqli_real_escape_string($link,$_POST['email'])."' LIMIT 1";
       $result = mysqli_query($link,$query);
-
-      if($result > 0){
+      $row = mysqli_fetch_assoc($result);
+      if($row > 0){
         $msg = "Email is taken chose another one ";      
-        echo $msg;
+        echo "<script type='text/javascript'>alert(\"$msg\");</script>";
     }
 
       
@@ -99,7 +100,7 @@ if(empty($_POST['pass1'])){
 
         if(!mysqli_query($link,$query)){
             $msg2 = "Could not sing you up, please try again later." ;       
-            echo $msg2;
+           echo "<script type='text/javascript'>alert(\"$msg2\");</script>";
         }
         else{
             
@@ -113,11 +114,7 @@ if(empty($_POST['pass1'])){
 
 
 
-        
-       
-
-
-    }
+     }
 
  
 }
