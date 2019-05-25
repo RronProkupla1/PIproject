@@ -14,7 +14,7 @@
 
 
 	<div id="logo"><img src="images/logo9.png"><h1 id="text1">Sign Up</h1></div>
-	<div class="form1">
+	<div class="form1" style="">
 		<table id="table1" style="max-width: 350px">
 			<form action="" method="post">
 			</br>

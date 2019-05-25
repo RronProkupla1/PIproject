@@ -14,12 +14,13 @@ body
 
 .form1
 {
+	width: 600px;
+	height: 500px;
 	background-color: rgba(33, 106, 224,0.5);
 	position: relative;
-	left:22%;
+	left:30%;
 	margin-top: 4%;
-	width: 800px;
-	height: 450px;
+	
 }
 
 #logo
