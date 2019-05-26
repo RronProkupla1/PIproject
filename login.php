@@ -35,19 +35,20 @@ if(empty($_POST['password'])){
 	<div id="logo"><img src="images/logo9.png"><h1 id="text1">Log In</h1></div>
 <div class="form1">
 	<table id="table1" style="max-width: 250px">
-		<form method="post">
+		<form method="post" action="loginpage.php">
 			<div style="padding: 20px;">
 			<br><br>
 			<tr><td><input type="text" name="email" placeholder="Email...">
 				<span style="font-size: 12px;color: red;"><?php if (isset($emailError)) echo $emailError ?></span>
 			</td></tr><br>
 			<tr></tr>
-			<tr><td><input type="text" name="password" placeholder="Password...">
+			<tr><td><input type="password" name="password" placeholder="Password...">
 				<span style="font-size: 12px;color: red;"><?php if (isset($passwordError)) echo $passwordError ?></span>
-			</td><br></tr><br>
+			</td><td><br></td></tr><br>
 			<tr></tr>
 			<tr><td style="padding-left: 70px;"><input type="submit" name="login" value="Log In"></td></tr>
-			<tr></tr>
+			<tr><td><br></td></tr>
+			<tr><td style="font-size: 12px;text-align: center;padding-left: 100px;"><a href="">Forgot password?</a></td></tr>
 			<tr></tr>
 			<tr><td style="position: relative;vertical-align: center;">
 				<p style="color: white;font-size: 12px;"><br><br><br>If you don't have an account create one for free!</p></td></tr>

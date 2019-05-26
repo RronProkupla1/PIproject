@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
         if($nameError !="" || $emailError !="" || $emailErr !="" || $lastnameError !="" || $DateError !="" || $passError !="" || $pass1Error !="" || 
             $passwError !="" )
         {
-            echo "<div>There was a mistake in your input please try again!</div>";
+            echo "";
         }
         else
         {
