@@ -11,8 +11,19 @@ if(mysqli_connect_error())
 $email = $_POST['email'];
 $password = $_POST['password'];
 
+
 $email = mysqli_real_escape_string($link,$email);
 $password = mysqli_real_escape_string($link,$password);
+
+	if($email == "" || $password == "")
+	{
+		$msg = "Fill the inputs!";
+		echo "
+		<script type='text/javascript'>alert(\"$msg\");
+				window.history.go(-1);</script>
+			";
+
+	}
 
 
 $query1 = mysqli_query($link,"SELECT ID from signuptable where Email = '$email'");
@@ -20,15 +31,17 @@ $row1 = mysqli_fetch_array($query1);
 $id = $row1[0];
 $query = "SELECT * FROM signuptable WHERE Password = '".md5(md5($id).$password)."' and Email = '$email'";
 $result = mysqli_query($link,$query) or die("Failed to query database ".mysqli_error($link));
-$row = mysqli_fetch_assoc($result);
+$row = mysqli_fetch_array($result);
 
-if($row['Email']= $email && $row['Password'] = $password)
+if($row['Email'] == $email && $row['Password'] == md5(md5($id).$password))
 {
 	echo "login successful!";
-}else {
+	
+}
+else
+{
 	echo "not a user";
-	}
-
+}
 
 
 

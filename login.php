@@ -2,29 +2,7 @@
 <html>
 <head>
 	
-	<?php
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $email = $password = '';
-
-if (empty($_POST['email'])) {
-		$emailError = 'Please add your email*';
-	}
-	 else {
-		$email = trim(htmlspecialchars($_POST['email']));
-     }
-
-
-if(empty($_POST['password'])){
-    	$passwordError = 'Password is required*';
-    }
-    else {
-    	$password = trim(htmlspecialchars($_POST['password']));
-    }
-
-}
-
-	?>
 	<title>Log In</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width , initial-scale=1">
@@ -39,11 +17,9 @@ if(empty($_POST['password'])){
 			<div style="padding: 20px;">
 			<br><br>
 			<tr><td><input type="text" name="email" placeholder="Email...">
-				<span style="font-size: 12px;color: red;"><?php if (isset($emailError)) echo $emailError ?></span>
 			</td></tr><br>
 			<tr></tr>
 			<tr><td><input type="password" name="password" placeholder="Password...">
-				<span style="font-size: 12px;color: red;"><?php if (isset($passwordError)) echo $passwordError ?></span>
 			</td><td><br></td></tr><br>
 			<tr></tr>
 			<tr><td style="padding-left: 70px;"><input type="submit" name="login" value="Log In"></td></tr>
