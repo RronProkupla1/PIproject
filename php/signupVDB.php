@@ -136,7 +136,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                 else
                 {
                     
-                    $query = "UPDATE signuptable SET Password = '".md5(md5(mysqli_insert_ID($link)).$Password)."' WHERE ID= ".mysqli_insert_ID($link)." LIMIT 1 ";
+                    $options = [
+                            'cost' => 12,
+                                ];
+                    
+                    $query = "UPDATE signuptable SET Password = '".password_hash($Password,PASSWORD_BCRYPT,$options)."' WHERE ID= ".mysqli_insert_ID($link)." LIMIT 1 ";
 
                     mysqli_query($link,$query);
                 }

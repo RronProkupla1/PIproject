@@ -30,11 +30,11 @@ $password = mysqli_real_escape_string($link,$password);
 $query1 = mysqli_query($link,"SELECT ID from signuptable where Email = '$email'");
 $row1 = mysqli_fetch_array($query1);
 $id = $row1[0];
-$query = "SELECT * FROM signuptable WHERE Password = '".md5(md5($id).$password)."' and Email = '$email'";
+$query = "SELECT * FROM signuptable WHERE  Email = '$email'";
 $result = mysqli_query($link,$query) or die("Failed to query database ".mysqli_error($link));
 $row = mysqli_fetch_array($result);
 
-if($row['Email'] == $email && $row['Password'] == md5(md5($id).$password))
+if($row['Email'] == $email && password_verify($password,$row['Password']) == 1 )
 {
 	echo "login successful!";
 	

@@ -18,6 +18,7 @@ body
 	height: 500px;
 	background-color: rgba(33, 106, 224,0.5);
 	position: relative;
+	border-radius: 15%;
 	left:30%;
 	margin-top: 4%;
 	
