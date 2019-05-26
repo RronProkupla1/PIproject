@@ -24,6 +24,7 @@ $password = mysqli_real_escape_string($link,$password);
 			";
 
 	}
+	else{
 
 
 $query1 = mysqli_query($link,"SELECT ID from signuptable where Email = '$email'");
@@ -40,10 +41,14 @@ if($row['Email'] == $email && $row['Password'] == md5(md5($id).$password))
 }
 else
 {
-	echo "not a user";
+	$msg2 = "You did a mistake while typing email-password or you aren't registered.";
+	echo "
+		<script type='text/javascript'>alert(\"$msg2\");
+				window.history.go(-1);</script>
+			";
 }
 
-
+}
 
 
 ?>
