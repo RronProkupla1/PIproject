@@ -3,7 +3,7 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="styles/gallery.css">
-		
+		<?php include('php/getHelp.php') ?>
 	</head>
 	
 	<body>
@@ -401,6 +401,47 @@
 
 </fieldset>
 </form>
+
+<script>
+
+function help(str) {
+    
+    if (str.length == 0) { 
+        document.getElementById("modelsName").innerHTML = "";
+        return;
+    
+    } 
+    else {
+        
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("modelsName").innerHTML = this.responseText;
+            }
+        }
+
+        xmlhttp.open("GET", "php/getHelp.php?q="+str, true);
+        xmlhttp.send();
+    }
+}
+
+</script>
+
+<p>
+  <b>
+  Start searching for names of all models!
+</b>
+</p>
+
+<form> 
+First name: <input type="text" onkeyup="help(this.value)">
+</form>
+<p>
+  Suggestions: 
+  <span id="modelsName">
+  </span>
+</p>
 
 </body>
 	
