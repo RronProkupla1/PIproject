@@ -1,0 +1,206 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+
+
+body 
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+div
+{
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.header 
+{
+	z-index: 200;
+	background: linear-gradient(to right, #ffffff, #216ae0);
+	position: fixed;
+	top:0;
+	left:0;
+	border-bottom: solid 1px transparent;
+	width:100%;
+	height: 100px;
+	margin-bottom: 2px;
+}
+
+
+.container2
+{
+	width:96%;
+	height:100px;
+	position: relative;
+	left:2%;
+	margin:0;
+	display: inline-flex;
+}
+
+
+
+.nav
+{
+	margin-left: 157px;
+	margin:0;
+	margin-top:37px;
+	margin-left: 100px;
+
+}
+.nav ul li
+{
+	display: inline-block;
+
+
+}
+.nav ul li:not(:last-child)
+{
+	margin-right: 60px;
+}
+.nav ul li a
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.nav ul li.active a,
+.nav ul li a:hover
+{
+	color: #ffffff;
+}
+
+.signin
+{
+	margin: 0;
+	height: 43px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    left:14%;
+    top:25px;
+}
+
+.signin a
+{
+	padding: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 43px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.signin a:hover
+{
+color:#2882e2 ;
+}
+
+.login
+{
+	margin: 0;
+	height: 43px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    left:15%;
+    top:25px;
+}
+
+.login a
+{
+	padding: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 43px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.login a:hover
+{
+color:#2882e2 ;
+}
+
+
+
+
+.column {	
+  float: left;
+  width: 25%;
+  padding: 3%;
+  }
+
+
+ .row{
+   
+   margin-left: 8%;
+   display: table;
+  clear: both;
+}		
+		
+
+.container {
+
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+
+.image {
+  border:6px dashed white;
+  width: 100%;
+  height: 200px;
+}
+
+
+img:hover{
+opacity:1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,150,0.4);
+  overflow: hidden;
+  width: 104%;
+  height: 212px;
+  -webkit-transform: scale(0);
+  -webkit-transition: 0.4s ease; 
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+}
+
+
+.text {
+  color: lightblue;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+
+.background-color{
+	background-color: rgba(50,0,0,0.1);
+}
