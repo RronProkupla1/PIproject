@@ -5,7 +5,12 @@
 	<meta name="viewport" content="width=device-width , initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	 <link rel="stylesheet" type="text/css" href="styles/carousel2.css">
-	
+	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+  <style type="text/css">
+    html{
+            scroll-behavior: smooth;
+        }
+  </style>
 	
 </head>
 <body>
@@ -194,6 +199,67 @@ It’s all new, all screen, and all powerful.
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
+
+    <footer class="page-width">
+    <a href="#top"><img src="images/gotop.png" alt="Gotop" id="gotop""></a>
+    <hr class="footer-hr">
+    <div id="footerd" style="padding: 2%">
+      <div class="footer-div">
+        <p class="f-title">COMPANY DETAILS</p>
+        <address>
+        <p class="f-text">Euonymus <br>
+           13th Avenue 16 <br>
+           Brooklyn<br>
+           NewYork<br>
+           1001
+        </p>
+        </address>
+        <p class="f-text">
+          Tel:0000 000001 <br>
+          Fax:0000 000002 <br>
+          Email:euonymus@euonymus.com
+        </p>
+      </div>
+      <div class="footer-div">
+        <p class="f-title">Top Tech</p>
+        <div class="f-lb">
+          <img src="images/xs.jpg" alt="tt" width="48px" height="48px" class="f-left">
+          <p class="f-text"> Iphone XS - Welcome to the big screens<br>
+            <small>Friday , 6th April 2018</small>
+          </p>
+        </div>
+        <div class="f-lb">
+          <img src="images/13.jpg" alt="tt" width="48px" height="48px" class="f-left">
+          <p class="f-text">  Dell XPS - Designed to be the best<br>
+            <small>Friday , 6th April 2018</small>
+          </p>
+        </div>
+        <div class="f-lb">
+          <img src="images/15.png" alt="tt" width="48px" height="48px" class="f-left">
+          <p class="f-text">  Apple Watch - Fundamentally redesigned and re-engineered <br>
+            <small>Friday , 6th April 2018</small>
+          </p>
+        </div>
+        <hr class="footer-hr">
+      </div>
+      <div class="footer-div">
+        <p class="f-title">QUICK LINKS</p>
+        <ol type="&raquo;">
+        <a href="trendingnews.html">&raquo;   Trending News</a><br>
+        <a href="iPhonexs.html">&raquo;   Iphone XS</a><br>
+        <a href="gallery.html">&raquo;   Gallery</a>
+        </ol>
+      </div>
+      <div class="footer-div">
+        
+        </form>
+      </div> 
+    </div>
+    <hr class="footer-hr">
+    <p id="f-cr"><em>Copyright &copy; 2019 Euonymus - All rights reserved</em></p>
+  </footer>
 	
 
 
