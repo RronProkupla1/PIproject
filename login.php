@@ -24,7 +24,7 @@
 			<tr></tr>
 			<tr><td style="padding-left: 70px;"><input type="submit" name="login" value="Log In"></td></tr>
 			<tr><td><br></td></tr>
-			<tr><td style="font-size: 12px;text-align: center;padding-left: 100px;"><a href="">Forgot password?</a></td></tr>
+			<tr><td style="font-size: 12px;text-align: center;padding-left: 100px;"><a href="forgotpassword.php">Forgot password?</a></td></tr>
 			<tr></tr>
 			<tr><td style="position: relative;vertical-align: center;">
 				<p style="color: white;font-size: 12px;"><br><br><br>If you don't have an account create one for free!</p></td></tr>
