@@ -45,17 +45,20 @@
   <img src="images/111.jpg" style="width:100%" id="img">
   <div class="text"><p class="textcaption">iPhone XS</p>
   <p>
+
     <?php
 
 $filename = "php/paragraph1.txt";
 
-@$filehandle = fopen($filename,"r");
+@$filehandle = fopen($filename,"r") or die("Unable to open file!");
 
 echo @$filecontent = fread($filehandle,filesize($filename));
 
 @fclose($filehandle);
 ?>
+
   </p>
+
   </div>
 </div>
 
@@ -63,9 +66,31 @@ echo @$filecontent = fread($filehandle,filesize($filename));
   
   <img src="images/222.jpg" style="width:100%" id="img">
   <div class="text"><p class="textcaption">Dell XPS</p>
-  <p>The XPS 2-in-1’s fan-less design allows a slimmer,
-   sleeker form, limits heat and enables silent operation. 
-It’s a beautifully mobile powerhouse that lets you work and play anywhere.</p>
+  <p>
+    The XPS 2-in-1’s fan-less design allows a slimmer,
+    sleeker form, limits heat and enables silent operation.
+    It’s a beautifully mobile powerhouse that lets you work
+     and play anywhere.
+    <?php
+
+    $teksti1 = "The XPS 2-in-1’s fan-less design allows a slimmer,
+    sleeker form, limits heat and enables silent operation."; 
+
+   $file2 = "php/paragraph2.txt";
+
+   @$filehandle2 = fopen($file2,"w") or die("Unable to open file!");
+
+   fwrite($filehandle2, $teksti1);
+   
+   $teksti2 = "It’s a beautifully mobile powerhouse that lets you work and play anywhere.";
+  
+   fwrite($filehandle2, $teksti2);
+
+   @fclose($filehandle2);
+
+?>
+  
+</p>
   </div>
 </div>
 
