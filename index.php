@@ -44,10 +44,18 @@
   
   <img src="images/111.jpg" style="width:100%" id="img">
   <div class="text"><p class="textcaption">iPhone XS</p>
-  <p>Super Retina in two sizes — including the largest display ever on an iPhone.
-  	 Even faster Face ID. The smartest, most powerful chip in a smartphone. 
-	 And a breakthrough dual-camera system with Depth Control.
- 	 iPhone XS is everything you love about iPhone. Taken to the extreme.</p>
+  <p>
+    <?php
+
+$filename = "php/paragraph1.txt";
+
+@$filehandle = fopen($filename,"r");
+
+echo @$filecontent = fread($filehandle,filesize($filename));
+
+@fclose($filehandle);
+?>
+  </p>
   </div>
 </div>
 
