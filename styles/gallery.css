@@ -204,3 +204,36 @@ opacity:1;
 .background-color{
 	background-color: rgba(50,0,0,0.1);
 }
+
+
+.aj
+{
+	margin-left: 7%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+
+.par
+{
+
+	margin: 1%;
+	font-size: 40px;
+	background: -webkit-linear-gradient(#000000, #3884ff);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+
+}
+
+.formm
+{
+	margin: 1%;
+	border-radius: 20px;
+	border-color: #3884ff;
+	padding: 1%;
+	padding-right: 10%;
+}
+
+.sugg
+{
+	margin: 1%;
+}

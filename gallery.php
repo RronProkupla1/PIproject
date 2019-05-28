@@ -30,6 +30,24 @@
 		</div>
 	</header>
 
+
+  <div class="aj">
+<p class="par">
+  <b>
+  Start searching for names of all models!
+</b>
+</p>
+
+<form> 
+<input type="text" onkeyup="help(this.value)" placeholder="Type..." class="formm">
+</form>
+<p class="sugg">
+  Suggestions: 
+  <span id="modelsName">
+  </span>
+</p>
+</div>
+
 	<form style="margin-left: 100px;margin-top: 120px;">
 	<fieldset style="width: 95%"  >
 <div class="background-color">	
@@ -425,23 +443,8 @@ function help(str) {
         xmlhttp.send();
     }
 }
-
 </script>
 
-<p>
-  <b>
-  Start searching for names of all models!
-</b>
-</p>
-
-<form> 
-First name: <input type="text" onkeyup="help(this.value)">
-</form>
-<p>
-  Suggestions: 
-  <span id="modelsName">
-  </span>
-</p>
 
 </body>
 	
