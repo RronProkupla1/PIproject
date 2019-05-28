@@ -14,13 +14,15 @@
 
 <div class="contain">
 	<table class="table">
-		
+		<tr>
+		<td>
 		<form class="form2">
-			<tr ><td id="email"><input name="email" placeholder="Type your email..."></td></tr>
-			<tr ><td id="button"><input type="button" name="reset" value="Reset" ></td></tr>
+			<tr ><td id="email"><input name="email" placeholder="Type your email..." style="margin-top: 150px;min-width: 400px;margin-left: 40px; "></td></tr>
+			<tr ><td id="button"><input type="button" name="reset" value="Reset" style="margin-left: 55px;min-width: 400px;" ></td></tr>
 
 		</form>
-
+	</td>
+</tr>
 	</table>
 </div>
 </body>
