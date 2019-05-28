@@ -40,6 +40,7 @@ input[type=submit]
 	background-color: #216ae0;
 	color: white;
 	cursor: pointer;
+
 }
 
 #logo
@@ -48,15 +49,17 @@ input[type=submit]
 	display: flex;
 }
 
-#text1
+.table
 {
-	position: relative;
-	left: 17%;
-	margin-top: 1%;
-	font-size: 50px;
+	position: absolute;
+	top: 30%;
+	left: 22%;
+	min-width: 500px;
 }
 
-.form2
-{
-
+#button
+{	
+	position: absolute;
+	left: 3%;
+	width: 500px;
 }
