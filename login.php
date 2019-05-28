@@ -21,16 +21,18 @@
 			<tr></tr>
 			<tr><td><input type="password" name="password" placeholder="Password...">
 			</td><td><br></td></tr><br>
+			<tr>
+			<td>
+			<span style="font-size: 12px;display: flex;">
+					<input type="checkbox" name="remember" style="margin-left: -60px;">
+				<p style="margin-left: -160px;margin-top: 9px;color: white;">Remember me</p>
+			</span>
+			</td>
+			</tr>
 			<tr></tr>
 			<tr><td style="padding-left: 70px;"><input type="submit" name="login" value="Log In"></td></tr>
 			<tr><td><br></td></tr>
 			<tr><td style="font-size: 12px;text-align: center;padding-left: 100px;"><a href="forgotpassword.php">Forgot password?</a></td></tr>
-			<tr><td>
-				<span style="font-size: 12px;display: flex;">
-					<input type="checkbox" name="remember">
-				<p style="margin-left: -140px;">Remember me</p>
-			</span>
-		    </td> </tr>
 			<tr><td style="position: relative;vertical-align: center;">
 				<p style="color: white;font-size: 12px;"><br><br><br>If you don't have an account create one for free!</p></td></tr>
 			<tr><td style="padding-left: 70px;padding-right: 27px;"><input type="button" name="newacc" value="Register" 
