@@ -248,7 +248,7 @@ It’s all new, all screen, and all powerful.
         <p class="f-title">QUICK LINKS</p>
         <ol type="&raquo;">
         <a href="trendingnews.html">&raquo;   Trending News</a><br>
-        <a href="iPhonexs.html">&raquo;   Iphone XS</a><br>
+        <a href="iPhonexs.php">&raquo;   Iphone XS</a><br>
         <a href="gallery.html">&raquo;   Gallery</a>
         </ol>
       </div>
