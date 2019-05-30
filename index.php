@@ -209,7 +209,7 @@ It’s all new, all screen, and all powerful.
       <div class="footer-div">
         <p class="f-title">COMPANY DETAILS</p>
         <address>
-        <p class="f-text">Euonymus <br>
+        <p class="f-text">TechShop <br>
            13th Avenue 16 <br>
            Brooklyn<br>
            NewYork<br>
@@ -244,12 +244,12 @@ It’s all new, all screen, and all powerful.
         </div>
         <hr class="footer-hr">
       </div>
-      <div class="footer-div">
+      <div class="footer-div" style="margin-left: 30px">
         <p class="f-title">QUICK LINKS</p>
         <ol type="&raquo;">
-        <a href="trendingnews.html">&raquo;   Trending News</a><br>
-        <a href="iPhonexs.php">&raquo;   Iphone XS</a><br>
-        <a href="gallery.html">&raquo;   Gallery</a>
+
+        <a href="iPhonexs.php"><p style="margin-top: 10px">&raquo;   Iphone XS</a><br>
+        <a href="gallery.php"><p style="margin-top: 10px">&raquo;   Gallery</p></a>
         </ol>
       </div>
       <div class="footer-div">
@@ -258,7 +258,7 @@ It’s all new, all screen, and all powerful.
       </div> 
     </div>
     <hr class="footer-hr">
-    <p id="f-cr"><em>Copyright &copy; 2019 Euonymus - All rights reserved</em></p>
+    <p id="f-cr"><em>Copyright &copy; 2019 TechShop - All rights reserved</em></p>
   </footer>
 	
 
