@@ -12,6 +12,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 
+
 $email = mysqli_real_escape_string($link,$email);
 $password = mysqli_real_escape_string($link,$password);
 
@@ -36,7 +37,18 @@ $row = mysqli_fetch_array($result);
 
 if($row['Email'] == $email && password_verify($password,$row['Password']) == 1 )
 {
-	echo "login successful!";
+  
+    if(isset($_POST['remember']))
+    {
+    setcookie('email',$email,time()+60*60*24);
+    setcookie('password',$password,time()+60*60*24);
+
+
+	}
+    session_start();
+    $_SESSION['email'] = $email;
+    header("location: logedin.php");
+
 	
 }
 else

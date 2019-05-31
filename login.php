@@ -16,10 +16,10 @@
 		<form method="post" action="loginpage.php">
 			<div style="padding: 20px;">
 			<br><br>
-			<tr><td><input type="text" name="email" placeholder="Email...">
+			<tr><td><input type="text" name="email" placeholder="Email..." id="email">
 			</td></tr><br>
 			<tr></tr>
-			<tr><td><input type="password" name="password" placeholder="Password...">
+			<tr><td><input type="password" name="password" placeholder="Password..." id="pass">
 			</td><td><br></td></tr><br>
 			<tr>
 			<td>
@@ -41,5 +41,21 @@
 		</form>
 	</table>
 </div>
+
+<?php
+
+	if(isset($_COOKIE['email']) && isset($_COOKIE['password']))
+	{
+		$email = $_COOKIE['email'];
+		$password = $_COOKIE['password'];
+		echo "<script>
+			document.getElementById('email').value = '$email';
+			document.getElementById('pass').value = '$password';
+
+			</script>
+		";
+
+	}
+?>
 </body>
 </html>
