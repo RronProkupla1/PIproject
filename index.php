@@ -26,7 +26,7 @@
 						<ul>
 							<li class="active"><a href="index.php">Home</a></li>
 							<li><a href="about.html">About us</a></li>
-							<li><a href="properties.html">Properties</a></li>
+							<li><a href="game.php">Game</a></li>
 							<li><a href="gallery.php">Gallery</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
@@ -104,9 +104,20 @@ echo @$filecontent = fread($filehandle,filesize($filename));
   <img src="images/333.png" style="width:100%" id="img">
   <div class="text"><p class="textcaption">iPad Pro</p>
   <p>
-It’s all new, all screen, and all powerful.
- Completely redesigned and packed with the most advanced technology,
- it will make you rethink what iPad is capable of.</p>
+        <?php
+try {
+    $fh = fopen("php/paragraph3.txt", "r");
+    if (! $fh) {
+        throw new Exception("Could not open the file!");
+    }
+}
+catch (Exception $e) {
+    echo "Error (File: ".$e->getFile().", line ".
+          $e->getLine()."): ".$e->getMessage();
+}
+?>
+
+</p>
   </div>
 </div>
 
