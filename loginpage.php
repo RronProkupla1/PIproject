@@ -49,6 +49,8 @@ if($row['Email'] == $email && password_verify($password,$row['Password']) == 1 )
     $_SESSION['email'] = $email;
     header("location: logedin.php");
 
+    header("Location: commentpage.php");
+
 	
 }
 else

@@ -1,0 +1,33 @@
+.pagew
+{
+    min-width: 98%;
+    margin: 1%;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 4px;
+    border-color: #216ae0;
+}
+#submit
+{
+    margin-left: 1%;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: #216ae0;
+    color: white;
+    padding: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+
+.commwidth{
+    border:3px solid  #216ae0;
+    margin-bottom: 3px ;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 10px;
+}
+
+.comment{
+    border-top:2px dashed black;
+}
