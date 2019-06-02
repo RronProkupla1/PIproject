@@ -31,6 +31,7 @@
   font-size: 16px;
   border: blue;
   cursor: pointer;
+  border-radius: 12px;
 }
 
 
