@@ -52,6 +52,13 @@ function showUser(str) {
 ID:<input type="Text" id="idelete" name="idelete" style="min-height: 40px;"><br><br>
 
 <input style="min-height: 50px;min-width: 200px;border-radius: 50px;background-color: rgba(50,53,34,0.4)" type="Submit" name="submit" value="Delete">
+
+<br><br><br><br>
+
+
+<button style="min-height: 50px;min-width: 200px;border-radius: 50px;background-color: rgba(50,53,34,0.4)"><a href="index.php" style="text-decoration: none;color: black;">Home</a></button>
+
+
 </form>
 
 </div>
