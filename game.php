@@ -92,12 +92,15 @@ if (!isset($_SESSION['game']['tictactoe']))
 		include 'header.php';
 		?>
 
-		<div id="content21" style="margin-top: 6.5%;">
+		<div id="content21" style="margin-top: 15%;">
 		<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 		<h2 style="text-align: center">Let's Play Tic Tac Toe!</h2>
 		<?php
 			$_SESSION['game']['tictactoe']->playGame($_POST);
 		?>
+
+    <p align="center">Deshironi te filloni perseri?Kliko!<br>
+    <input type="submit" name="newgame" value="New Game" /></p>";
 		</form>
 		</div>
 		<?php

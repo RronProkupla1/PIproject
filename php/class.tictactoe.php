@@ -82,7 +82,7 @@ class tictactoe extends game
 			echo "
 				<p align=\"center\">
 					<input type=\"submit\" name=\"move\" value=\"Take Turn\" /><br/>
-					<b>It's player {$this->player}'s turn.</b></p>
+					<b>It's player {$this->player}'s turn.</b></p><br><br><br><br><br><br>
 			</div>";
 		}
 		else
@@ -94,8 +94,7 @@ class tictactoe extends game
 				echo errorMsg("Whoops! Looks like you've had a tie game. Want to try again?");
 				
 			session_destroy(); 
-				
-			echo "<p align=\"center\"><input type=\"submit\" name=\"newgame\" value=\"New Game\" /></p>";
+		    echo "<br><br><br><br><br><br>";
 		}
 	}
 	

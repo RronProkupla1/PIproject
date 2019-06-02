@@ -149,13 +149,20 @@ echo @$filecontent = fread($filehandle,filesize($filename));
   <p>
         <?php
 try {
+    $f = "php/paragraph3.txt";
+
     $fh = fopen("php/paragraph3.txt", "r");
+
+    echo @$filecontent = fread($fh,filesize($f));
+
     if (! $fh) {
         throw new Exception("Could not open the file!");
     }
 }
 catch (Exception $e) {
+
     echo "Error (File: ".$e->getFile().", line ".
+
           $e->getLine()."): ".$e->getMessage();
 }
 ?>
@@ -168,10 +175,32 @@ catch (Exception $e) {
   
     <img src="images/444.png" style="width:100%" id="img">
   <div class="text"><p class="textcaption">Apple Watch</p>
-  <p>The largest Apple Watch display yet. New electrical heart sensor.
-   Re-engineered Digital Crown with haptic feedback.
-    Entirely familiar, yet completely new,
-     Apple Watch Series 4 resets the standard for what a watch can be.</p>
+  <p> 
+
+      <?php
+
+try {
+
+    $fp = "php/paragraph4.txt";
+
+    $ff = fopen("php/paragraph4.txt", "r");
+
+    echo @$filecon = fread($ff,filesize($fp));
+
+    if (! $ff) {
+        throw new Exception("Could not open the file!");
+    }
+}
+catch (Exception $e) {
+
+    echo "Error (File: ".$e->getFile().", line ".
+
+          $e->getLine()."): ".$e->getMessage();
+}
+?>
+    
+  
+</p>
   </div>
 </div>
 
