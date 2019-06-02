@@ -1,19 +1,7 @@
 
-body
- {
-	margin: auto;
-	padding: 10px;
-	font-size: 12px;
-	font-family: Arial, Helvetica, Verdana;
-}
 
-h2 
-{
-	color: #000099;
-	margin: auto;
-	text-align: center;
-	padding-bottom: 20px;
-}
+
+
 
 
 .errorMsg 
@@ -42,14 +30,14 @@ h2
 #board 
 {
 	margin: auto;
-	width: 216px;
+	width: 230px;
 }
 
 .board_cell 
 {
 	float: left;
-	width: 70px;
-	height: 70px;
+	width: 75px;
+	height: 75px;
 	text-align: center;
 	border: 1px solid #000;
 }
@@ -65,7 +53,7 @@ h2
 }
 
 
-#content 
+#content21
 {
 	margin: auto;
 	padding: 10px;
