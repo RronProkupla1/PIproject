@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
 		<?php include('php/getHelp.php') ?>
-    <script src="dropdown.js"></script>
+    <script src="js/dropdown.js"></script>
     <style>
       i {
   border: solid white;
@@ -466,7 +466,8 @@ include 'header.php';
 </fieldset>
 </form>
 
-<div id="poll">
+<div id="poll" style="background-color:rgba(50,0,0,0.1);  border: 1px solid black;
+                      margin-bottom: 10px;width: 89.4%;text-align: center;margin-left: 6.2%;font-size: 30px;color:#3884ff ">
 <h3>Which one do you prefer?</h3>
 <form>
 Phones
@@ -474,7 +475,7 @@ Phones
 <br>Laptops
 <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
 <br>PC
-<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+<input type="radio" name="vote" value="2" onclick="getVote(this.value)">
 </form>
 </div>
 <script>

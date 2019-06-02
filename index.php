@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	 <link rel="stylesheet" type="text/css" href="styles/carousel2.css">
 	<link rel="stylesheet" type="text/css" href="styles/footer.css">
-  <script src="dropdown.js"></script>
+  <script src="js/dropdown.js"></script>
   <style type="text/css">
     html{
             scroll-behavior: smooth;
