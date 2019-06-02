@@ -16,18 +16,18 @@
         <p class="f-text">
           Tel:0000 000001 <br>
           Fax:0000 000002 <br>
-          Email:euonymus@euonymus.com
+          Email:techshop@techshop.com
         </p>
       </div>
       <div class="footer-div" style="margin-left: 18%">
         <p class="f-title">Top Tech</p>
-        <div class="f-lb" style="width: 400px">
+        <div class="f-lb" style="width: 400px;margin-bottom: 20px;">
           <img src="images/xs.jpg" alt="tt" width="48px" height="48px" class="f-left">
           <p class="f-text"> Iphone XS - Welcome to the big screens<br>
             <small>Friday , 6th April 2018</small>
           </p>
         </div>
-        <div class="f-lb" >
+        <div class="f-lb" style="margin-bottom: 20px;">
           <img src="images/13.jpg" alt="tt" width="48px" height="48px" class="f-left">
           <p class="f-text">  Dell XPS - Designed to be the best<br>
             <small>Friday , 6th April 2018</small>

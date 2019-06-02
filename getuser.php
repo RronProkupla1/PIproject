@@ -16,13 +16,13 @@ table, td, th {
 th {
     text-align: left;
 }
-</style>
+</style>r
 </head>
 <body>
 
 <?php
 
-$connect = mysqli_connect('localhost','root','','piproject');
+$connect = mysqli_connect('localhost','root','root','piproject');
 if (!$connect) {
     die('Could not connect: ' . mysqli_error($con));
 }

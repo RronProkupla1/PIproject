@@ -1,3 +1,8 @@
+body
+{
+background-image: linear-gradient(#ffffff, #216ae0);
+}
+
 .pagew
 {
     min-width: 98%;
