@@ -48,6 +48,7 @@
         <a href="iPhonexs.php"><p style="margin-top: 10px">&raquo;   Iphone XS</a><br>
         <a href="gallery.php"><p style="margin-top: 10px">&raquo;   Gallery</p></a>
         <a href="game.php"><p style="margin-top: 10px">&raquo;   Game</p></a>
+         <a href="contact.php"><p style="margin-top: 10px">&raquo;   Contact</p></a>
         
         </ol>
       </div>

@@ -11,7 +11,7 @@
 							<li><a href="about.html">About us</a></li>
 							<li><a href="game.php">Game</a></li>
 							<li><a href="gallery.php">Gallery</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.php">Contact</a></li>
 							
 							<?php if(!isset($_SESSION['email']))
 							echo "" ?>
