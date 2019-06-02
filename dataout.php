@@ -2,7 +2,7 @@
 
 $id = $_POST['idelete']; 
 
-$connect = mysqli_connect('localhost','root','','piproject');
+$connect = mysqli_connect('localhost','root','root','piproject');
 if (!$connect) {
     die('Could not connect: ' . mysqli_error($con));
 }
@@ -13,7 +13,7 @@ $result = mysqli_query($connect,$query);
              
 if($result){ 
  echo "deleted id ".$id." ";
- echo "<a href='adminview.php'>Go back</a>";
+ echo "<a href='admin.php'>Go back</a>";
  }
  else{ 
  echo "Delete fail";

@@ -32,7 +32,7 @@ function showUser(str) {
 </script>
 </head>
 
-<body background="bg6.png">
+<body style="background-image: linear-gradient(white,#4286f4);">
 
 <div style="text-align: center;font-size: 30px">
 

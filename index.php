@@ -214,7 +214,7 @@ catch (Exception $e) {
           <div style="height: 100%;width:100%;">
           	<img src="images/img1.jpg" style="height: 350px;width: 100%;">
           	      <div class="overlay">
-    				<div class="text2">Hello World</div>
+    				<div class="text2">iPhone X</div>
   				</div>	
           </div>
      
@@ -222,13 +222,13 @@ catch (Exception $e) {
         <div class="mslides">
         	 <div style="height: 100%;width:100%;"><img src="images/img2.jpg" style="height: 350px;width: 100%;"></div>
         	 <div class="overlay">
-    				<div class="text2">Hello World</div>
+    				<div class="text2">Samsung Galaxy Note 9</div>
   				</div>	
         </div>
         <div class="mslides">
         	 <div style="height: 100%;width:100%;"><img src="images/img4.jpg" style="height: 350px;width: 100%;"></div>
         	 <div class="overlay">
-    				<div class="text2">Hello World</div>
+    				<div class="text2">Google Pixel 3XL</div>
   				</div>	
         </div>
       </div>
@@ -236,19 +236,19 @@ catch (Exception $e) {
         <div class="mslides2">
         	 <div style="height: 100%;width:100%;"><img src="images/img5.jpg" style="height: 350px;width: 100%;"></div>
         	 <div class="overlay">
-    				<div class="text2">Hello World</div>
+    				<div class="text2">Samsung Galaxy S9</div>
   				</div>	
         </div>
         <div class="mslides2">
         	 <div style="height: 100%;width:100%;"><img src="images/img6.jpg" style="height: 350px;width: 100%;"></div>
         	 <div class="overlay">
-    				<div class="text2">Hello World</div>
+    				<div class="text2">Xiaomi Mi Note 6</div>
   				</div>	
         </div>
         <div class="mslides2">
         	 <div style="height: 100%;width:100%;"><img src="images/img7.jpg" style="height: 350px;width: 100%;"></div>
         	 <div class="overlay">
-    				<div class="text2">Hello World</div>
+    				<div class="text2">Google Pixel 2</div>
   				</div>	
         </div>
       </div>
