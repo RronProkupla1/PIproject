@@ -110,7 +110,12 @@ html
 <div id="result"></div>
 <p><h2>CEO</h2></p>
 
-<p>Hello everyone, my name is Jane Doe, and I am the person who made it all Happen.</p>
+<p><?php
+$string1 = "Hello";
+$num = 1;
+printf("%s everyone, my name is Jane Doe, and I am the %ust person of this page. ",$string1,$num);
+?>
+ </p>
 
 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
