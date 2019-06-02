@@ -1,5 +1,42 @@
   
 <<?php session_start() ?>
+<style type="text/css">
+	.dropdown-content2 {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+	width: 120px;
+	border-radius: 10px;
+	margin-right:2%;
+	
+	
+}
+.dropdown2:hover .dropdown2:focus{
+	display: block;
+	background-color: black;
+	}
+.dropdown2 {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	margin:0px;
+	font-size: 18px;
+    font-family: Arial, Helvetica, Verdana;
+
+}
+.dropdown2:hover{
+	color:white;
+	cursor: pointer;
+}
+.dropdown-content2 a {
+  color:#216ae0;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a:hover {background-color: #216ae0;}
+.show {display:block;}
+</style>
 	<header class="header">
 		<div class="container">
 			<div class="logo">
@@ -8,7 +45,15 @@
 				<nav class="nav">
 						<ul>
 							<li class="active"><a href="index.php">Home</a></li>
-							<li><a href="about.html">About us</a></li>
+							<li><span onclick="myFunction2()" class="dropdown2">About us</span>
+
+					<div id="myDropdown2" class="dropdown-content2">
+    				<a href="person1.php">Jane Doe</a>
+   					<a href="person2.php">John Doe</a>
+    				<a href="person3.php">Joan Smalls</a>
+  					</div>
+			
+				</a> </li>
 							<li><a href="game.php">Game</a></li>
 							<li><a href="gallery.php">Gallery</a></li>
 							<li><a href="contact.html">Contact</a></li>
@@ -41,4 +86,6 @@
 			      ";
 			?>
 		</div>	
+		<script type="text/javascript" src="js/dropdown2.js"></script>
+		<script type="text/javascript" src="js/dropdown.js"></script>
 	</header>
