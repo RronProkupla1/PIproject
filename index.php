@@ -253,6 +253,30 @@ catch (Exception $e) {
         </div>
       </div>
     </div>
+<hr style="margin-bottom: 50px;">
+<table style="margin-bottom: 40px;">
+     	<tr>
+   	  <td>
+   	  	<p style="font-size: 3em;margin-top: 0px;">MEET OUR TEAM</p>
+   	  </td>
+     
+       <td >
+       <img src="images/person1.jpg"  width="350px" height="175px">
+         <p><big>Jane Doe</big><br>CEO of TechShop<br><a href="person1.php">Read more &raquo;</a></p>
+       </td>
+      
+       <td>
+       <img  src="images/person2.jpg" width="350px" height="175px">
+       <p><big>John Doe</big><br>CFO of TechShop<br><a href="person2.php">Read more &raquo;</a></p>
+      </td>
+
+      <td>
+     
+        <img src="images/person3.jpg" width="350px" height="175px">
+        <p><big>Joan Smalls</big><br>COO of TechShop<br><a href="person3.php">Read more &raquo;</a></p>
+      </td>
+  </tr>
+</table>
 
     <!-- Footer -->
     <?php 
