@@ -3,33 +3,15 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="styles/gallery.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
 		<?php include('php/getHelp.php') ?>
 	</head>
 	
 	<body>
-	<header class="header">
-		<div class="container2">
-			<div class="logo">
-				<img src="images/logo9.png" style="width:314px;height:100px;">
-			</div>
-				<nav class="nav">
-						<ul>
-							<li class="active"><a href="index.php">Home</a></li>
-							<li><a href="about.html">About us</a></li>
-							<li><a href="properties.html">Properties</a></li>
-							<li><a href="gallery.php">Gallery</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-				</nav>
-			<div class="signin">
-				<a href="SignUp.php">Sign up</a>
-			</div>
-			<div class="login">
-				<a href="login.php">Log in</a>
-			</div>
-		</div>
-	</header>
+<?php 
+include 'header.php';
+ ?>
 
 
   <div class="aj">
@@ -55,7 +37,7 @@
 <legend style="font-size: 30px;font-family: 'Open sans', sans-serif ">PHONES</legend>    
    <div class="row" style="margin-left: -10px">
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1004.jpg" alt="Avatar" class="image">
      
       <a href="images/1004.jpg">
@@ -68,7 +50,7 @@
 
 
 <div class="column">
-     <div class="container">
+     <div class="container2">
      <img src="images/1005.jpg" alt="Avatar" class="image">
       <a href="images/1005.jpg">
       <div class="overlay">
@@ -81,7 +63,7 @@
 
 
 <div class="column">    
-     <div class="container">
+     <div class="container2">
        <img src="images/1006.jpg" alt="Avatar" class="image">
        <a href="images/1006.jpg">
        <div class="overlay">
@@ -93,7 +75,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1007.jpg" alt="Avatar" class="image">
    <a href="images/1007.jpg">
       <div class="overlay">
@@ -105,7 +87,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
       
      <img src="images/1008.jpg" alt="Avatar" class="image">
       <a href="images/1008.jpg">
@@ -118,7 +100,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      
      <img src="images/1009.jpg" alt="Avatar" class="image">
       <a href="images/1009.jpg">
@@ -131,7 +113,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
       
      <img src="images/1010.jpg" alt="Avatar" class="image">
       <a href="images/1010.jpg">
@@ -144,7 +126,7 @@
 
 
 <div class="column">
-     <div class="container">
+     <div class="container2">
      <img src="images/1011.jpg" alt="Avatar" class="image">
       <a href="images/1011.jpg">
       <div class="overlay">
@@ -156,7 +138,7 @@
 
 
 <div class="column">    
-     <div class="container">
+     <div class="container2">
        <img src="images/1012.jpg" alt="Avatar" class="image">
        <a href="images/1012">
        <div class="overlay">
@@ -185,7 +167,7 @@
 <div class="row" style="margin-left: -10px">
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1013.jpg" alt="Avatar" class="image">
       <a href="images/1013.jpg">
       <div class="overlay">
@@ -197,7 +179,7 @@
 
 
 <div class="column">
-     <div class="container">
+     <div class="container2">
      <img src="images/1014.jpg" alt="Avatar" class="image">
       <a href="images/1014.jpg">
       <div class="overlay">
@@ -209,7 +191,7 @@
 
 
 <div class="column">    
-     <div class="container">
+     <div class="container2">
        <img src="images/1015.jpg" alt="Avatar" class="image">
        <a href="images/1015.jpg">
        <div class="overlay">
@@ -221,7 +203,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1016.jpg" alt="Avatar" class="image">
       <a href="images/1016.jpg">
       <div class="overlay">
@@ -233,7 +215,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1017.jpg" alt="Avatar" class="image">
       <a href="images/1017.jpg">
       <div class="overlay">
@@ -245,7 +227,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1018.jpg" alt="Avatar" class="image">
       <a href="images/1018.jpg">
       <div class="overlay">
@@ -257,7 +239,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1019.jpg" alt="Avatar" class="image">
       <a href="images/1019.jpg">
       <div class="overlay">
@@ -269,7 +251,7 @@
 
 
 <div class="column">
-     <div class="container">
+     <div class="container2">
      <img src="images/1020.jpg" alt="Avatar" class="image">
       <a href="images/1020.jpg">
       <div class="overlay">
@@ -281,7 +263,7 @@
 
 
 <div class="column">    
-     <div class="container">
+     <div class="container2">
        <img src="images/1021.jpg" alt="Avatar" class="image">
        <a href="images/1021.jpg">
        <div class="overlay">
@@ -307,7 +289,7 @@
 
 <div class="row" style="margin-left: -10px">
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1030.jpg" alt="Avatar" class="image">
       <a href="images/1030.jpg">
       <div class="overlay">
@@ -319,7 +301,7 @@
 
 
 <div class="column">
-     <div class="container">
+     <div class="container2">
      <img src="images/1031.jpg" alt="Avatar" class="image">
       <a href="images/1031.jpg">
       <div class="overlay">
@@ -331,7 +313,7 @@
 
 
 <div class="column">    
-     <div class="container">
+     <div class="container2">
        <img src="images/1032.jpg" alt="Avatar" class="image">
        <a href="images/1032.jpg">
        <div class="overlay">
@@ -343,7 +325,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1033.jpg" alt="Avatar" class="image">
       <a href="images/1033.jpg">
       <div class="overlay">
@@ -355,7 +337,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1034.jpg" alt="Avatar" class="image">
       <a href="images/1034.jpg">
       <div class="overlay">
@@ -367,7 +349,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1035.jpg" alt="Avatar" class="image">
       <a href="images/1035.jpg">
       <div class="overlay">
@@ -379,7 +361,7 @@
 
 
 <div class="column">
-    <div class="container">
+    <div class="container2">
      <img src="images/1036.jpg" alt="Avatar" class="image">
       <a href="images/1036.jpg">
       <div class="overlay">
@@ -391,7 +373,7 @@
 
 
 <div class="column">
-     <div class="container">
+     <div class="container2">
      <img src="images/1037.jpg" alt="Avatar" class="image">
       <a href="images/1037.jpg">
       <div class="overlay">
@@ -403,7 +385,7 @@
 
 
 <div class="column">    
-     <div class="container">
+     <div class="container2">
        <img src="images/1038.jpg" alt="Avatar" class="image">
        <a href="images/1038.jpg">
        <div class="overlay">

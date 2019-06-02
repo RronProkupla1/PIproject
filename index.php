@@ -10,36 +10,17 @@
     html{
             scroll-behavior: smooth;
         }
+   
+
   </style>
 	
 </head>
 <body>
 
 	<!-- HEADER -->
-
-	<header class="header">
-		<div class="container">
-			<div class="logo">
-				<img src="images/logo9.png" style="width:314px;height:100px;">
-			</div>
-				<nav class="nav">
-						<ul>
-							<li class="active"><a href="index.php">Home</a></li>
-							<li><a href="about.html">About us</a></li>
-							<li><a href="game.php">Game</a></li>
-							<li><a href="gallery.php">Gallery</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-				</nav>
-			<div class="signin">
-				<a href="SignUp.php">Sign up</a>
-			</div>
-			<div class="login">
-				<a href="login.php">Log in</a>
-			</div>
-		</div>	
-	</header>
-
+<?php 
+  include 'header.php';
+  ?>
 	<!-- MAIN SLIDER -->
 	
 
