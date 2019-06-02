@@ -76,7 +76,7 @@
 
 			<?php if (isset($_SESSION['email'])) 
 			echo "<div class=\"dropdown\">
-  <button onclick=\"myFunction()\" class=\"dropbtn\">Acc&nbsp<i class=\"arrow down\"></i></button>
+  <button onclick=\"myFunction()\" class=\"dropbtn\"><img width=\"20px\" height=\"20px\" style=\"border-radius:20px\" src=\"images/person.png\">&nbsp<i style=\"padding-bottom:5px\" class=\"arrow down\"></i></button>
   <div id=\"myDropdown\" class=\"dropdown-content\">
     <a href=\"#\">".$_SESSION['email']."</a>
     <a href=\"adminverification.php\">Admin</a>
