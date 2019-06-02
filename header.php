@@ -79,7 +79,7 @@
   <button onclick=\"myFunction()\" class=\"dropbtn\">Acc&nbsp<i class=\"arrow down\"></i></button>
   <div id=\"myDropdown\" class=\"dropdown-content\">
     <a href=\"#\">".$_SESSION['email']."</a>
-    <a href=\"admin.php\">Admin</a>
+    <a href=\"adminverification.php\">Admin</a>
     <a href=\"logout.php\">Log out</a>
   </div>
 </div>             

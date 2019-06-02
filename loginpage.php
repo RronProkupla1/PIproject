@@ -47,7 +47,7 @@ if($row['Email'] == $email && password_verify($password,$row['Password']) == 1 )
 	}
     session_start();
     $_SESSION['email'] = $email;
-    header("location: logedin.php");
+    
 
     header("Location: index.php");
 
