@@ -112,7 +112,10 @@ html
 
 <P><h2>CFO</h2></P>
 
-<p>Hello everyone, my name is John Doe, and I am the person who helped the one who made it all Happen.</p>
+<p>
+  <?php 
+echo str_replace("world", "everyone","Hello world");
+ ?>, my name is John Doe, and I am the person who helped the one who made it all Happen.</p>
 
 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
@@ -122,14 +125,37 @@ professional brands, human-to-human.</p>
 
   <p> After spending nearly a decade working in PR and marketing for multimillion dollar brands and startups, John knows what 
   truly drives conversions, sold-out launches and New York Times interviews—and it’s not mastering the marketing flavor of 
-the week.</p>
+the week.
+
+<?php
+
+$string = 'November 01, 2018'; 
+
+$pattern = '/(\w+) (\d+), (\d+)/i'; 
+
+$replacement = '${1} 02, $3'; 
+  
+ 
+echo preg_replace($pattern, $replacement, $string); 
+?> </p>
 
    <p> It’s how well you connect with the heart-beating people you’re trying to help and communicate your understanding back 
     to them.
 </p>
 
 
-<p>Here are my social media</p>
+<p>Here are my social media
+<?php 
+  
+ 
+$inputstrVal  = 'Jane'; 
+  
+ 
+$result = preg_split('//', $inputstrVal , -1, PREG_SPLIT_NO_EMPTY); 
+  
+
+print_r($result); 
+?> </p>
 
 
 <ul style="list-style: none; display: flex;position: relative;left: 45%;margin-bottom: 20px;">
