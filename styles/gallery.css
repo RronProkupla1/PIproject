@@ -24,14 +24,14 @@ div
 
 
 
-.column {	
+.column1212 {	
   float: left;
   width: 25%;
   padding: 3%;
   }
 
 
- .row{
+ .row1212{
    
    margin-left: 8%;
    display: table;
@@ -71,12 +71,12 @@ opacity:1;
   -webkit-transition: 0.4s ease; 
 }
 
-.container:hover .overlay {
+.container2:hover .overlay {
   -webkit-transform: scale(1);
 }
 
 
-.text {
+.text1212 {
   color: lightblue;
   font-size: 20px;
   position: absolute;

@@ -6,6 +6,69 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
 		<?php include('php/getHelp.php') ?>
+    <script src="dropdown.js"></script>
+    <style>
+      i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+        .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: blue;
+  cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+.dropdown {
+  margin-top:  20px;
+  margin-left: 150px; 
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+.show {
+  display:block;
+}
+    </style>
 	</head>
 	
 	<body>
@@ -35,26 +98,26 @@ include 'header.php';
 	<fieldset style="width: 95%"  >
 <div class="background-color">	
 <legend style="font-size: 30px;font-family: 'Open sans', sans-serif ">PHONES</legend>    
-   <div class="row" style="margin-left: -10px">
-<div class="column">
+   <div class="row1212" style="margin-left: -10px">
+<div class="column1212">
     <div class="container2">
      <img src="images/1004.jpg" alt="Avatar" class="image">
      
       <a href="images/1004.jpg">
       <div class="overlay">
-       <div class="text">Samsung Galaxy J7 Prime</div>
+       <div class="text1212">Samsung Galaxy J7 Prime</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
      <div class="container2">
      <img src="images/1005.jpg" alt="Avatar" class="image">
       <a href="images/1005.jpg">
       <div class="overlay">
-       <div class="text">Huawei Mate 20 Lite</div>
+       <div class="text1212">Huawei Mate 20 Lite</div>
       </div>
     </a>
      </div>
@@ -62,87 +125,87 @@ include 'header.php';
 
 
 
-<div class="column">    
+<div class="column1212">    
      <div class="container2">
        <img src="images/1006.jpg" alt="Avatar" class="image">
        <a href="images/1006.jpg">
        <div class="overlay">
-       <div class="text">Huawei U11 Eyes</div>
+       <div class="text1212">Huawei U11 Eyes</div>
        </div>
      </a>
      </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1007.jpg" alt="Avatar" class="image">
    <a href="images/1007.jpg">
       <div class="overlay">
-       <div class="text">BlackBerry Motion</div>
+       <div class="text1212">BlackBerry Motion</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
       
      <img src="images/1008.jpg" alt="Avatar" class="image">
       <a href="images/1008.jpg">
       <div class="overlay">
-       <div class="text">LG V30</div>
+       <div class="text1212">LG V30</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      
      <img src="images/1009.jpg" alt="Avatar" class="image">
       <a href="images/1009.jpg">
       <div class="overlay">
-       <div class="text">Sony Xperia XZ Premium</div>
+       <div class="text1212">Sony Xperia XZ Premium</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
       
      <img src="images/1010.jpg" alt="Avatar" class="image">
       <a href="images/1010.jpg">
       <div class="overlay">
-       <div class="text">Nokia 3310</div>
+       <div class="text1212">Nokia 3310</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
      <div class="container2">
      <img src="images/1011.jpg" alt="Avatar" class="image">
       <a href="images/1011.jpg">
       <div class="overlay">
-       <div class="text">Iphone 6/6s</div>
+       <div class="text1212">Iphone 6/6s</div>
       </div>
     </a>
      </div>
 </div>
 
 
-<div class="column">    
+<div class="column1212">    
      <div class="container2">
        <img src="images/1012.jpg" alt="Avatar" class="image">
        <a href="images/1012">
        <div class="overlay">
-       <div class="text">Iphone XR</div>
+       <div class="text1212">Iphone XR</div>
        </div>
      </a>
      </div>
@@ -164,110 +227,110 @@ include 'header.php';
 
 <legend style="font-size: 30px;font-family: 'Open sans', sans-serif">PC</legend>
 
-<div class="row" style="margin-left: -10px">
+<div class="row1212" style="margin-left: -10px">
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1013.jpg" alt="Avatar" class="image">
       <a href="images/1013.jpg">
       <div class="overlay">
-       <div class="text">Dell XPS Tower S.E.</div>
+       <div class="text1212">Dell XPS Tower S.E.</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
      <div class="container2">
      <img src="images/1014.jpg" alt="Avatar" class="image">
       <a href="images/1014.jpg">
       <div class="overlay">
-       <div class="text">Lenovo Ideacentre y900</div>
+       <div class="text1212">Lenovo Ideacentre y900</div>
       </div>
      </a>
      </div>
 </div>
 
 
-<div class="column">    
+<div class="column1212">    
      <div class="container2">
        <img src="images/1015.jpg" alt="Avatar" class="image">
        <a href="images/1015.jpg">
        <div class="overlay">
-       <div class="text">Chillblast Fusion GTX 1050 </div>
+       <div class="text1212">Chillblast Fusion GTX 1050 </div>
        </div>
      </a>
      </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1016.jpg" alt="Avatar" class="image">
       <a href="images/1016.jpg">
       <div class="overlay">
-       <div class="text">Chillblast Fusion Spectrum Ryzen</div>
+       <div class="text1212">Chillblast Fusion Spectrum Ryzen</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1017.jpg" alt="Avatar" class="image">
       <a href="images/1017.jpg">
       <div class="overlay">
-       <div class="text">Alienware Aurora</div>
+       <div class="text1212">Alienware Aurora</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1018.jpg" alt="Avatar" class="image">
       <a href="images/1018.jpg">
       <div class="overlay">
-       <div class="text">Dell AlienWare X51</div>
+       <div class="text1212">Dell AlienWare X51</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1019.jpg" alt="Avatar" class="image">
       <a href="images/1019.jpg">
       <div class="overlay">
-       <div class="text">Apple PC</div>
+       <div class="text1212">Apple PC</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
      <div class="container2">
      <img src="images/1020.jpg" alt="Avatar" class="image">
       <a href="images/1020.jpg">
       <div class="overlay">
-       <div class="text">CiT F3 Purple MicroATX Tower</div>
+       <div class="text1212">CiT F3 Purple MicroATX Tower</div>
       </div>
      </a>
      </div>
 </div>
 
 
-<div class="column">    
+<div class="column1212">    
      <div class="container2">
        <img src="images/1021.jpg" alt="Avatar" class="image">
        <a href="images/1021.jpg">
        <div class="overlay">
-       <div class="text">Inwin 901 ITX</div>
+       <div class="text1212">Inwin 901 ITX</div>
        </div>
      </a>
      </div>
@@ -287,109 +350,109 @@ include 'header.php';
 
 <legend style="font-size: 30px;font-family: 'Open sans', sans-serif">LAPTOPS</legend>
 
-<div class="row" style="margin-left: -10px">
-<div class="column">
+<div class="row1212" style="margin-left: -10px">
+<div class="column1212">
     <div class="container2">
      <img src="images/1030.jpg" alt="Avatar" class="image">
       <a href="images/1030.jpg">
       <div class="overlay">
-       <div class="text">Asus Chromebook Flip C302CA</div>
+       <div class="text1212">Asus Chromebook Flip C302CA</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
      <div class="container2">
      <img src="images/1031.jpg" alt="Avatar" class="image">
       <a href="images/1031.jpg">
       <div class="overlay">
-       <div class="text">Lenovo ThinkPad X1 Carbon (6th Gen)</div>
+       <div class="text1212">Lenovo ThinkPad X1 Carbon (6th Gen)</div>
       </div>
      </a>
      </div>
 </div>
 
 
-<div class="column">    
+<div class="column1212">    
      <div class="container2">
        <img src="images/1032.jpg" alt="Avatar" class="image">
        <a href="images/1032.jpg">
        <div class="overlay">
-       <div class="text">Huawei MateBook X </div>
+       <div class="text1212">Huawei MateBook X </div>
        </div>
      </a>
      </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1033.jpg" alt="Avatar" class="image">
       <a href="images/1033.jpg">
       <div class="overlay">
-       <div class="text">Sony VAIO E15123CN</div>
+       <div class="text1212">Sony VAIO E15123CN</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1034.jpg" alt="Avatar" class="image">
       <a href="images/1034.jpg">
       <div class="overlay">
-       <div class="text"> Dell XPS 13</div>
+       <div class="text1212"> Dell XPS 13</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1035.jpg" alt="Avatar" class="image">
       <a href="images/1035.jpg">
       <div class="overlay">
-       <div class="text"> HP ZBook x2</div>
+       <div class="text1212"> HP ZBook x2</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
     <div class="container2">
      <img src="images/1036.jpg" alt="Avatar" class="image">
       <a href="images/1036.jpg">
       <div class="overlay">
-       <div class="text">MacBook PRO 2016</div>
+       <div class="text1212">MacBook PRO 2016</div>
       </div>
     </a>
     </div>
 </div>
 
 
-<div class="column">
+<div class="column1212">
      <div class="container2">
      <img src="images/1037.jpg" alt="Avatar" class="image">
       <a href="images/1037.jpg">
       <div class="overlay">
-       <div class="text">Acer Aspire 5</div>
+       <div class="text1212">Acer Aspire 5</div>
       </div>
      </a>
      </div>
 </div>
 
 
-<div class="column">    
+<div class="column1212">    
      <div class="container2">
        <img src="images/1038.jpg" alt="Avatar" class="image">
        <a href="images/1038.jpg">
        <div class="overlay">
-       <div class="text">Lenovo Yoga Book </div>
+       <div class="text1212">Lenovo Yoga Book </div>
        </div>
      </a>
      </div>
